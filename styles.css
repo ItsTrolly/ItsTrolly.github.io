@@ -31,7 +31,7 @@ nav ul li {
 }
 nav ul li a {
     color: transparent;
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.3px white;
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -126,9 +126,9 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 .portfolio-grid {
-    display: grid;
     grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
     gap: 20px;
 }
@@ -146,7 +146,6 @@ nav ul li a:hover {
 }
 .portfolio-item img {
     width: 100%;
-    height: auto;
 }
 .overlay {
     position: absolute;
@@ -220,9 +219,11 @@ nav ul li a:hover {
 }
 .contact-image{
     width: 60%;
+
 }
 .contact-image img{
-    height: 100%
+    height: 100%;
+    width: 90%;
 
 }
 /* Footer */
